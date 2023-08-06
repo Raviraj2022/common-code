@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+  </head>
+  <body bgcolor="lightgreen">
+    <h1 align="center">JOB APPLICATION FORM</h1>
+    <hr />
+    <form action="login.js" mathod="post">
+      <table align="center" cellspacing="20">
+        <tr>
+          <th align="left"><label for="fname">Full Name</label></th>
+
+          <td>
+            <input
+              type="text"
+              id="fname"
+              size="50"
+              placeholder="Enter your name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="job name">Job Title</label></th>
+          <td>
+            <input
+              type="text"
+              id="job name"
+              size="50"
+              placeholder="Enter your Job title"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left">
+            <label for="currcompany">Current Company</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              id="currcompany"
+              size="50"
+              placeholder="Enter your Company name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="contactno">Contact no</label></th>
+          <td>
+            <input type="tel" step="any" placeholder="+91" />
+            <input
+              type="text"
+              id="contactno"
+              size="20"
+              placeholder="Enter your contact no"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="email">Email</label></th>
+          <td>
+            <input
+              type="text"
+              id="email"
+              size="50"
+              placeholder="Enter your Email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left">Work Status</th>
+          <td>
+            <input type="radio" name="work status" value="Full time" />Full time
+            <input type="radio" name="work status" value="part time" />part time
+            <input type="radio" name="work status" value="per dim" />per dim
+            <input type="radio" name="work status" value="others" />others
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="salary">Salary</label></th>
+          <td>
+            <input type="text" id="salary" size="10" placeholder="Salary" />
+            <input type="Rupees" name="salary" size="10" placeholder="Rupees" />
+            <input type="Yearly" name="year" size="10" placeholder="Yearly" />
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="experience">Experience</label></th>
+          <td>
+            <input
+              type="text"
+              id="experience"
+              size="50"
+              placeholder="Enter your name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="location">Location</label></th>
+          <td>
+            <input
+              type="text"
+              id="location"
+              size="50"
+              placeholder="Enter your current location"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th align="left">
+            <label for="permanentaddress">Permanent Address</label>
+          </th>
+          <td>
+            <textarea
+              rows="5"
+              cols="50"
+              id="permanentaddress"
+              placeholder="Enter permanent address"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th align="left"><label for="resume">Resume</label></th>
+          <td><input type="file" id="resume" name="upload_file" /></td>
+        </tr>
+        <tr>
+          <td align="right">
+            <input type="submit" value="submit" />
+            <input type="reset" value="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register New Account</title>
+    <style>
+      body {
+        background-image: url("../media/image/Nature2 (1).jpg");
+      }
+      h1 {
+        text-align: center;
+        color: rgb(197, 23, 110);
+        margin-top: 30px;
+      }
+      div.main {
+        width: 50%;
+        height: 60%;
+        background-color: rgb(23, 192, 43);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+      }
+
+      table {
+        color: white;
+      }
+      tr#fir {
+        display: inline-block;
+        margin-top: 30px;
+        margin-inline-start: 30px;
+        border-bottom-left-radius: 50%;
+      }
+      input[type="mail"],
+      input[type="name"],
+      input[type="word"],
+      input[type="firm"] {
+        border-radius: 10px;
+        display: inline-block;
+        height: 30px;
+        width: 35ch;
+      }
+      input[type="button"] {
+        width: 50%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: brown;
+        display: inline-block;
+        margin-left: 45%;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Register New Account</h1>
+
+    <div class="main">
+      <section>
+        <table>
+          <tr id="fir">
+            <th>
+              <label for="mail">
+                Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </th>
+            <td>
+              <input type="mail" id="mail" placeholder="your email" size="40" />
+            </td>
+          </tr>
+          <tr id="fir">
+            <th>
+              <label for="user">
+                Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </th>
+            <td>
+              <input
+                type="name"
+                id="user"
+                placeholder="your username"
+                size="40"
+              />
+            </td>
+          </tr>
+          <tr id="fir">
+            <th>
+              <label for="pass">
+                Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </th>
+            <td>
+              <input
+                type="word"
+                id="pass"
+                placeholder="your password"
+                size="40"
+              />
+            </td>
+          </tr>
+          <tr id="fir">
+            <th>
+              <label for="con">
+                Confirm
+                Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </th>
+            <td>
+              <input
+                type="firm"
+                id="con"
+                placeholder="Retype password "
+                size="40"
+              />
+            </td>
+          </tr>
+          <tr id="fir">
+            <td>
+              <input type="checkbox" />I agree to have read the<a href="www.com"
+                >terms and services</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td id="fir"><input type="button" value="Register" /></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>

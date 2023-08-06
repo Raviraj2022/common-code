@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCA login Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ba7954f43e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      div {
+        height: 100%;
+        width: 60%;
+        background-color: #cccfd1;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      img {
+        display: inline-block;
+        margin-left: 40%;
+      }
+
+      table {
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: "Philosopher", sans-serif;
+        display: inline-block;
+        margin-left: 25%;
+      }
+      td {
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+      a {
+        display: inline-block;
+        margin-left: 140px;
+      }
+
+      td.hei {
+        height: 10px;
+      }
+      input[type="full"],
+      input[type="mail"],
+      input[type="con"],
+      input[type="add"] {
+        padding: 10px;
+        box-shadow: 3px 5px 2px 4px black;
+        font-size: bold;
+      }
+      input[type="button"] {
+        background-color: brown;
+        border-radius: 5px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Sign up with SCA</h1>
+      <img src="../media/image/sca logo.jpg" />
+      <form>
+        <table>
+          <tr>
+            <td>Full Name:</td>
+          </tr>
+          <tr>
+            <td id="hei">
+              <input type="full" placeholder="fullname" size="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+          </tr>
+          <tr>
+            <td id="hei">
+              <input type="mail" placeholder="email" size="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>Contact Number:</td>
+          </tr>
+          <tr>
+            <td id="hei">
+              <input type="con" placeholder="contact number" size="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>Address:</td>
+          </tr>
+          <tr>
+            <td id="hei">
+              <input type="add" placeholder="address" size="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <a href="www.com"><input type="button" value="submit" /></a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
